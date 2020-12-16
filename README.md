@@ -2,25 +2,30 @@
 
 An mobile application build to organise the **events**, **meet** and **projects** around 3iL club initiative, the goal here is to provide a client to consume data ressources manage by prebuilt backend services which already exist.
 
-# Configuration of project
+# Project Configuration
 
 ## Environment & Tools
 
-
->  JDK 1.8
->  SDK -_-
->  Framework : Flutter 1.22.4 • channel stable
->  Langage: Dart 2.10.4
->  Editor: VsCode
+ >  JDK 1.8 
+ >
+ >  SDK 
+ >
+ >  Framework : Flutter 1.22.4 • channel stable
+ >
+ >  Langage: Dart 2.10.4
+ >
+ >  Editor: VsCode
 
 ## Clone et run
 
 After clone repos, we can do that for launch app:
-> flutter clean
-> flutter pub get
-> flutter run
+ > flutter clean
+ >
+ > flutter pub get
+ >
+ > flutter run
 
-# Specifications
+# Project pecifications
 
 We consider specification as basic function provides by app, and we organise in module:
 
