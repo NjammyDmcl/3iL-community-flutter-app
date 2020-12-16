@@ -1,16 +1,31 @@
-# template
+﻿# 3iL Community Flutter App (readme in writing)
 
-A new Flutter project.
+An mobile application build to organise the **events**, **meet** and **projects** around 3iL club initiative, the goal here is to provide a client to consume data ressources manage by prebuilt backend services which already exist.
 
-## Getting Started
+# Specifications
 
-This project is a starting point for a Flutter application.
+We consider specification as basic function provides by app, and we organise in module:
 
-A few resources to get you started if this is your first Flutter project:
+ - User module
+ - Meet module
+ - Project module
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## User Module
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This module in point of view of application consist to provide:
+
+ - User authentification (open/close session)
+ - User account management 
+	 - update user information
+	 - update user password
+
+Get like an uml entity, we decid to affect to this model the follow attributs:
+```
+	- name
+	- degree
+	- phone
+	- member
+	- password
+	- session
+```
+
